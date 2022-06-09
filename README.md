@@ -32,7 +32,7 @@ Method to find the time complexity (Big O notation) of any algorithm:
        ```       
        for(i=0; i<n; i++)
        {      
-             /* loop 2 */ 
+             /loop2/ 
              
              for(j=0; j<n; j++)
               {
