@@ -32,8 +32,6 @@ Method to find the time complexity (Big O notation) of any algorithm:
        ```       
        for(i=0; i<n; i++)
        {      
-  
-  
              for(j=0; j<n; j++)
               {
                      k = k + 1; 
