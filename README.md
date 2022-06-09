@@ -29,9 +29,7 @@ Method to find the time complexity (Big O notation) of any algorithm:
       - Here the time complexity would be (n*k1) + (n*k2) => n * (k1 + k2) => time complexity is O(n), as we eliminated the constants k1 and k2.
 
 4. For nested loops, consider the code: 
-       ```
-       /*loop1*/
-       
+       ```       
        for(i=0; i<n; i++)
        {      
              /* loop 2 */ 
