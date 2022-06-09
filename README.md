@@ -30,9 +30,13 @@ Method to find the time complexity (Big O notation) of any algorithm:
 
 4. For nested loops, consider the code: 
        ```
+       // loop1
+       
        for(i=0; i<n; i++)
        {      
-              for(j=0; j<n; j++)
+             //loop2 
+             
+             for(j=0; j<n; j++)
               {
                      k = k + 1; 
               }
