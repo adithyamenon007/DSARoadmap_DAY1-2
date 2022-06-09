@@ -11,11 +11,7 @@ Method to find the time complexity (Big O notation) of any algorithm:
        - If you have time complexity as Tn = K1 + K2*n, drop K1 as it is non-dominant and also drop K2 as it is a constant term.
 3. Break the code into fragments.
        - Consider the code snippet: 
-              ```
-              int i = 0;
-              int k=0; 
-              int n = 10;
-
+   
               // loop 1
 
               for (i=0; i<n; i++)
@@ -29,5 +25,8 @@ Method to find the time complexity (Big O notation) of any algorithm:
               {
                  k = k - i;
               }
-              ```
+           
+      - Here the time complexity would be (n*k1) + (n*k2) => n * (k1 + k2) => time complexity is O(n), as we eliminated the constants k1 and k2.
+
+4. 
 
