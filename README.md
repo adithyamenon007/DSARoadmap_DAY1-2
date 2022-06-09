@@ -32,13 +32,14 @@ Method to find the time complexity (Big O notation) of any algorithm:
        ```       
        for(i=0; i<n; i++)
        {      
-              *loop2*
+  
+  
              for(j=0; j<n; j++)
               {
                      k = k + 1; 
               }
         }
        ```
-       - Here the time complexity would be O(n^2).
+      - Here the time complexity would be O(n^2).
 5. 
 
